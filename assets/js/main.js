@@ -4,12 +4,8 @@ const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
-
+    
 /*===== MENU SHOW =====*/
-/* Validate if constant exists */
-
-
-/*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 
 if (navToggle) {
@@ -17,6 +13,9 @@ if (navToggle) {
         navMenu.classList.add('show-menu')
     })
 }
+
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
 
 if (navClose) {
     navClose.addEventListener('click', () => {

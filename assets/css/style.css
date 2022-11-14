@@ -306,7 +306,7 @@ img {
     row-gap: 1rem;
 }
 
-.home__sociial-icon {
+.home__social-icon {
     font-size: 1.25rem;
     color: var(--first-color);
 }
@@ -317,7 +317,7 @@ img {
 
 .home__blob {
     width: 200px;
-    fill: var(--first-color);
+    fill: #fff;
 }
 
 .home__blob-img {
@@ -399,16 +399,16 @@ img {
 
 
 /*==================== ABOUT ====================*/
-
+/*
 .about__img {
     width: 200px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
-}
+}*/
 
 .about__description {
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -435,7 +435,7 @@ img {
 }
 
 .about__buttons {
-    display: flex;
+    display: flexbox;
     justify-content: center;
 }
 
