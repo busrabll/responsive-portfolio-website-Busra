@@ -344,7 +344,7 @@ img {
 }
 
 .home__scroll {
-    /*display: none;*/
+    display: none;
 }
 
 .home__scroll-button {
@@ -399,16 +399,16 @@ img {
 
 
 /*==================== ABOUT ====================*/
-/*
+
 .about__img {
     width: 200px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
-}*/
+}
 
 .about__description {
-    text-align: left;
+    text-align: center;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -632,20 +632,6 @@ img {
     color: var(--first-color);
 }
 
-/*==================== SERVICES ====================*/
-
-
-/* Active Modal */
-
-
-/*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== CONTACT ME ====================*/
 
@@ -673,6 +659,7 @@ img {
     font-size: var(--small-font-size);
     color: var(--text-color-light);
 }
+
 
 /*==================== FOOTER ====================*/
 
@@ -781,6 +768,7 @@ img {
 /* For small devices */
 
 @media screen and (max-width: 350px) {
+
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -861,7 +849,7 @@ img {
 
     .header {
         top: 0;
-        border-bottom: initial;
+        bottom: initial;
     }
 
     .header,
@@ -924,7 +912,7 @@ img {
     }
 
     .about__description {
-        text-align: initial;
+        text-align: justify;
     }
 
     .about__info {
@@ -967,27 +955,23 @@ img {
     .footer__copy {
         margin-top: 4.5rem;
     }
-
 }
 
 /* For large devices */
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
+
     .header,
     .main,
-    .footer__container{
+    .footer__container {
         padding: 0;
     }
 
-    .home__blob{
+    .home__blob {
         width: 320px;
     }
 
-    .home__social{
+    .home__social {
         transform: translateX(-6rem);
-    }
-
-    .contact__form{
-        width: 460px;
     }
 }

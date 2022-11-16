@@ -4,7 +4,7 @@ const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
-    
+
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 
@@ -75,16 +75,6 @@ tabs.forEach(tab => {
         tab.classList.add('qualification__active')
     })
 })
-
-
-/*==================== SERVICES MODAL ====================*/
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
